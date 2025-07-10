@@ -73,7 +73,7 @@ function App() {
       };
 
       // Send data to webhook
-      const response = await fetch('/api/submit-form', {
+      const response = await fetch('https://automation.luminotest.com/webhook/bc47d271-07cd-4d62-a0f8-394035b57b77', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
